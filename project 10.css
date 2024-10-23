@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navheight{
+    height: 100px;
+}
+.abc{
+    border: 3px solid red;
+}
+
+#card-title{
+    font-size: 2rem;
+
+}
+.width{
+    width:400px;
+    height: 250px;
+}
+.price{
+    font-weight: bold;
+}
+
+.height{
+    min-height: 500px
+}
+
+.bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    background-image: url(picture/sea1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:3px solid red;
+    margin: auto;
+    
+   
+}
+.box i{
+    padding-top: 25px;
+    color: orange;
+    font-size: 2.4rem;
+}
+
+#cardmargin{
+    margin-top: 50px;
+}
+#footer-height{
+    min-height: 400px;
+
+}
+.image-flex{
+    width: 350px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#group-image{
+    width: 80px;
+    height: 60px;
+    padding: 10px;
+}
+
+
+
+
+

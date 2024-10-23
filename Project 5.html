@@ -1,0 +1,207 @@
+<html>
+<head>
+    <title>Website 5</title>
+    <link rel="stylesheet" href="Project 5.css">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Special">Special</a></li>
+                <li><a href="#Dish">Dish</a></li>
+                <li><a href="#contact">Content</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+        <div> <i class="fa-brands fa-wordpress-simple"></i></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="Home-content">
+        <h1>Food that you can't resist</h1>
+        <h2>Enjoy the marvelous taste</h2>
+        <p>10 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed molestiae iusto ipsa. Totam quam consequuntur modi nam vero? Ab natus laborum temporibus? Incidunt perspiciatis error suscipit! Distinctio, facilis placeat! Quisquam!</p>
+        <a href="#special"><button>Get Started</button></a>
+        </div>
+    </section>
+
+    <!--This section we are prepared for the about section-->
+    <section class="about-section" id="About">
+        <h2 class="heading1">about</h2>
+
+            <div class="about-row">
+
+                <div class="card">
+                    <img src="picture/food1.jpg" alt="">
+                    <p>5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur fugit omnis deserunt incidunt minima modi ab magna.</p>
+                    <a href="#"><button>Buy</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="picture/food5.jpg" alt="">
+                    <p>5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur fugit omnis deserunt incidunt minima modi ab magna.</p>
+                    <a href="#"><button>Buy</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="picture/food4.jpg" alt="">
+                    <p>5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequatur fugit omnis deserunt incidunt minima modi ab magna.</p>
+                    <a href="#"><button>Buy</button></a>
+                </div>
+            </div>
+    </section>
+
+
+    <!--This section now we are prapard for the Special  -->
+
+    <section class="special" id="Special">
+        <h2 class="heading2">Special</h2>
+
+        <div class="special-row">
+
+                <div class="text">
+                    <h2>Expensive Foods</h2>
+                    <p class="paragraph">10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quos laboriosam distinctio asperiores sed, natus modi ab ut itaque nostrum temporibus vel fugiat dicta molestiae! Ipsam veniam placeat suscipit reiciendis.
+                    </p>
+                    <br>
+                    <h2>Delecious Foods</h2>
+                    <p>10 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dolore sunt odio dolorem debitis sit, dolor eum nemo, autem rerum voluptas necessitatibus esse. Magni dolorum facilis ex aliquam fuga nobis!
+                    </p>
+                </div>
+
+                <div class="images">
+                    <img src="picture/food5.jpg" alt="">
+                </div>
+        </div>
+    </section>
+
+
+    <section class="Dishes">
+        <h2 class="heading3">Dishes</h2>
+
+            <div class="dishes-row">
+
+                <div class="picture">
+                    <img src="picture/food1.jpg" alt="">
+                </div>
+                <div class="picture">
+                    <img src="picture/food2.jpg" alt="">
+                </div>
+                <div class="picture">
+                    <img src="picture/food3.jpg" alt="">
+                </div>
+                <div class="picture">
+                    <img src="picture/food4.jpg" alt="">
+                </div>
+                <div class="picture">
+                    <img src="picture/food5.jpg" alt="">
+                </div>
+                <div class="picture">
+                    <img src="picture/food6.jpg" alt="">
+                </div>
+
+            </div>
+    </section>
+
+
+<!--This section now we are prepared for the form section-->
+<section class="form-section">
+    <h2 class="heading4">Form Section</h2>
+
+    <div class="form">
+
+        <form action="">
+
+            <div class="input1">
+                <input type="text" required>
+                <h3>Surname</h3>
+            </div>
+            <div class="input1">
+                <input type="email" required>
+                <h3>Email</h3>
+            </div>
+            <div class="input1">
+                <input type="number" required>
+                <h3>Phone No</h3>
+            </div>
+                <div class="input2">
+                <textarea name="text" id="" cols="30" rows="10" required></textarea>
+                <h3>Comment</h3>
+                <div>
+
+                <div class="input3">
+                    <input type="submit" value="Submit">
+                </div>
+            
+
+        </form>
+
+
+
+    </div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+var clickbar = document.querySelector(".fa-bars");
+var showmenu = document.querySelector(".nav-links");
+
+clickbar.addEventListener('click',function(){
+
+    showmenu.classList.toggle("open-menu");
+
+
+})
+
+
+</script>
+
+
+</body>
+
+
+
+
+
+
+
+</html>

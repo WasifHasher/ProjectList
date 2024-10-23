@@ -1,0 +1,791 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: blanchedalmond;
+    z-index: 1;
+}
+header .logo-design{
+        position: relative;
+        top: 15%;
+        left: 3%;
+        font-size: 2rem;
+}
+header .logo-design i{
+    margin-right: 10px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.6rem;
+    margin-right: 4rem;
+}
+header nav ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+header nav ul li a{
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header nav ul li a:hover{
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+header #three-bars{
+    color:black;
+    font-size: 2rem;
+    display: none;
+}
+
+/*This section we are making for the home section */
+.Home-1{
+    width: 100%;
+    min-height: 90vh;
+   
+
+}
+
+.Home-1 .home-images{
+    width: 100%;
+    height: 50vh;
+}
+.Home-1 .home-images img{
+    width: 100%;
+    height: 100%;
+}
+
+.Home-1 .counter-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width:50%;
+    height: 20vh;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+    margin: 5rem auto;
+   flex-wrap: wrap;
+
+}
+
+.Home-1 .counter-box .box{
+    margin-left: 3rem;
+    text-align: center;
+    align-items: center;
+}
+.Home-1 .counter-box .box h2{
+    font-size:2rem;
+}
+.Home-1 .counter-box .box h3{
+    margin-top: 10px;
+}
+
+/*This section for the about ready for the learning*/
+.about{
+    width:100%;
+   min-height:70vh;
+   
+    
+}
+
+.about .heading1{
+    text-align: center;
+    font-size: 2rem;
+    color: tomato;
+    margin-top: 10px;
+    position: relative;
+}
+.about .heading1::after{
+    content: '';
+    position:absolute;
+    width: 130px;
+    height: 4px;
+    background-color:blue;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about .about-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.about .about-images{
+    width:38%;
+    height:55vh;
+    margin-top: 3rem;
+    position: relative;
+    background-color: orange;
+    left: 6%;
+
+}
+.about .about-images img{
+    width: 90%;
+    height:55vh;
+    position: absolute;
+    top: -5%;
+}
+
+.about .about-text{
+    width:45%;
+    height: 25vh;
+    margin-right: 3rem;
+    margin-top:6rem;
+}
+
+.about .about-text h1{
+    color: orange;
+    font: 2.5rem;
+    
+}
+
+.about .about-text p{
+    margin-top: 20px;
+}
+
+.about .about-text .about-icons{
+   
+    width: 40%;
+    height: 7vh;
+    margin-top:20px;
+}
+.about .about-text .about-icons i{
+    font-size: 2rem;
+    color: orange;
+    margin-right: 10px;
+}
+.about .about-text .about-icons i:hover{
+    transform: scale(1.3);
+}
+
+
+/*Now we are making service section for the design */
+.Services{
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 2rem;
+   
+}
+
+
+.Services .heading2{
+    text-align: center;
+    font-size: 2rem;
+    color: tomato;
+    margin-top: 10px;
+    position: relative;
+}
+.Services .heading2::after{
+    content: '';
+    position:absolute;
+    width: 160px;
+    height: 4px;
+    background-color:blue;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Services .containter-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3rem auto;
+   
+    
+}
+
+.Services .containter-row .box{
+    width: 16rem;
+    height: 14rem;
+    border-left: 5px solid blue;
+    border-right:5px solid blue;
+    border-radius: 5px;
+    margin-left: 5rem;
+    margin-top: 20px;
+    box-shadow: 1px 2px 3px gray;
+
+}
+.Services .containter-row .box i{
+    font-size: 3rem;
+    color: orange;
+    margin: 2rem 4.4rem;
+}
+.Services .containter-row .box p{
+    font-size: 1rem;
+    color: gray;
+    padding: 5px 10px;
+    margin-top: -1.4rem;
+}
+
+/*This is the project section is started*/
+.our-project{
+    width: 100%;
+    min-height: 80vh;
+    background-color:#333;
+    margin-top: 1rem;
+}
+
+.our-project .heading3{
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    padding-top: 2rem;
+    position: relative;
+}
+.our-project .heading3::after{
+    content: '';
+    position:absolute;
+    width: 160px;
+    height: 4px;
+    background-color:blue;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.our-project .project-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+
+}
+.our-project .project-container .images-project{
+    width: 18rem;
+    height: 12rem;
+    border: 3px solid yellow;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.our-project .project-container .images-project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-project .project-container .images-project img:hover{
+    transform: scale(1.4);
+}
+
+/*This is the contact form section will be prapared And you just stay for a while*/
+.contact-form{
+    width: 90%;
+    min-height: 80vh;
+    margin: 10px auto;
+}
+
+.contact-form .heading4{
+    text-align: center;
+    font-size: 2rem;
+    color:orange;
+    padding-top: 1rem;
+    position: relative;
+}
+.contact-form .heading4::after{
+    content: '';
+    position:absolute;
+    width: 160px;
+    height: 4px;
+    background-color:blue;
+    bottom: -17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact-form .container-row{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin-top: 2.4rem;
+    flex-wrap: wrap;
+  
+}
+
+.contact-form .container-row .box{
+    width: 14rem;
+    height: 10rem;
+    box-shadow: 1px 2px 3px gray;
+    margin-left: 2rem;
+}
+.contact-form .container-row .box i{
+    color: orange;
+    margin-top: 1.5rem;
+    font-size: 2.4rem;
+}
+.contact-form .container-row .box h2{
+    margin-top: 2rem;
+    color: gray;
+}
+
+.form-details{
+    width: 90%;
+    min-height: 40vh;
+    
+    margin:20px auto 10px;
+}
+.form-details form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-details form .input{
+    width: 40%;
+    margin: 10px auto;
+}
+.form-details form .input input{
+    width: 100%;
+    height:2.4rem;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    padding: 10px;
+}
+.form-details form #email-id {
+    width: 90%;
+}
+.form-details form .input1 {
+    width: 90%;
+    height: 10rem;
+    margin:20px auto;
+}
+.form-details form .input1 textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-shadow: 2px 2px 3px gray;
+    padding: 10px;
+}
+.form-details form button{
+    width: 130px;
+    height: 2.8rem;
+    border-radius: 5px;
+    background-color:rgb(15, 100, 226);
+    border: 2px solid red;
+    margin-left: 3rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+/*Now we are design last section of website*/
+
+.footer-section{
+    width: 100%;
+    min-height: 40vh;
+    background-color:#333;
+}
+.footer-section .container-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.footer-section .container-footer .first-1{
+    width: 22%;
+    height: 10rem;
+    margin-top: 3rem;
+    margin-left: 1.4rem;
+
+}
+.footer-section .container-footer .first-1 i{
+    font-size: 3rem;
+    color:yellow;
+    
+}
+.footer-section .container-footer .first-1 p{
+    color:white;
+    margin-top: 1rem;
+}
+
+.footer-section .container-footer .second-2{
+    width: 14%;
+    height: 10rem;
+  
+    margin-top: 3rem;
+}
+.footer-section .container-footer .second-2 h2{
+    color:yellow;
+}
+.footer-section .container-footer .second-2 .country-list {
+    flex-flow: column;
+}
+
+.footer-section .container-footer .second-2 .country-list a{
+    color: white;
+    display: block;
+    margin-top: 5px;
+}
+
+.footer-section .container-footer .third-3{
+    width: 14%;
+    height: 10rem;
+  
+    margin-top:3rem;
+}
+
+.footer-section .container-footer .third-3 h2{
+    color: yellow;
+}
+.footer-section .container-footer .third-3 .links{
+    flex-flow: column;
+}
+
+.footer-section .container-footer .third-3 .links a{
+    color: white;
+    display: block;
+    margin-top: 5px;
+}
+.footer-section .container-footer .four-4{
+    width: 20%;
+    height:10rem;
+  
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.footer-section .container-footer .four-4 h2{
+    color:yellow;
+    text-transform: uppercase;   
+    padding-right: 9rem;
+
+}
+.footer-section .container-footer .four-4 p{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    padding-right: 2.1rem;
+}
+
+.footer-section .container-footer .four-4 input{
+    width: 100%;
+    height: 2rem;
+    margin-top: 10px;
+    padding-left:10px;
+}
+.footer-section .container-footer .four-4 button{
+    width: 150px;
+    height: 2.5rem;
+    border: 3px solid red;
+    color: white;
+    background:none;
+    float: left;
+    margin-top: 15px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+
+.footer-section .container-footer .four-4 button:hover{
+    background-color: blueviolet;
+}
+
+.last-task{
+    width: 100%;
+    text-align:center;
+    background-color: #333;
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:620px){
+
+    .Home-1 .counter-box{
+       flex-direction: column;
+       width: 80%;
+       height: 40vh;
+    }
+    .Home-1 .counter-box .box{
+        margin-top: 20px;        
+    }
+
+    .Services{
+    
+        margin-top: 5rem;
+    }
+    .our-project .project-container .images-project{
+        width: 30rem;
+        height: 18rem;
+        margin: 3rem auto 10px;
+    
+    }
+    .contact-form .container-row #box1{
+       width: 28rem;
+       margin: 10px auto;
+        
+       
+    }
+    .contact-form .container-row #id-box{
+        width: 28rem;
+        margin:3.4rem auto;
+       
+    }
+    .form-details form .input{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .form-details form .input input{
+        width: 100%;
+        height:2.9rem;
+        font-size: 1.5rem;
+    }
+
+    .form-details form .input1 {
+        width: 90%;
+       
+    }
+    .form-details form .input1 textarea{
+        width: 100%;
+        height: 100%;
+       font-size: 1.5rem;
+    }
+    .form-details form button{
+      margin-left: 1rem;
+      width: 10rem;
+      font-size: 1.5rem;
+        
+    
+    }
+    .footer-section .container-footer{
+        flex-flow: column;
+        flex-wrap: wrap; 
+    }
+    .footer-section .container-footer #first-1{
+        margin-bottom: 2rem;
+        margin-top: 1.4rem;
+    }
+    .footer-section .container-footer #first-1 p{
+        width: 20rem;
+        margin-left: -6rem;
+        line-height: 30px;
+        font-size: 1.3rem;
+    }
+
+
+    .footer-section .container-footer .first-1, .second-2,.third-3,.four-4{
+        margin-top: 6rem;
+    }
+    .footer-section .container-footer .second-2{
+        width: 50%;
+        margin-top: 1rem;
+        
+    }
+    .footer-section .container-footer .second-2 h2{
+        font-size: 2.3rem;
+    }
+    .footer-section .container-footer .second-2 .country-list a{
+        font-size: 1.3rem;
+    }
+    .footer-section .container-footer .third-3{
+        width: 50%;
+        margin-top: 5rem;
+     
+    }
+    .footer-section .container-footer .third-3 h2{
+        font-size: 3rem;
+    }
+    .footer-section .container-footer .third-3 a{
+        font-size: 1.4rem;
+
+    }
+    .footer-section .container-footer .four-4{
+        width: 60%;
+        margin-top: 5.7rem;
+       
+    }
+    .footer-section .container-footer .four-4 h2{
+        margin-left: 3rem;
+        font-size: 2rem;
+    }
+    .footer-section .container-footer .four-4 input{
+        margin-left: 2.5rem;
+    }
+
+.footer-section .container-footer .four-4 button{
+    margin-left: 2rem;
+}
+.last-task{
+    padding-top: 2rem;
+}
+
+
+}
+
+
+@media screen and (max-width:700px){
+
+    header{
+        width: 100%;
+    }
+header .logo-design i{
+    font-size: 3rem;
+}
+header nav {
+    margin-right: -14rem;
+    margin-top: -2rem;
+   
+}
+header nav ul{
+ width: 200%;
+ height: 200%;
+ background-color: black;
+flex-flow: column;
+justify-content: center;
+
+
+}
+.open-side-menu{
+    margin-right: 13rem;
+}
+header nav ul li{
+    margin-top: 30px;
+}
+header nav ul li a{
+    color: white;
+    font-size: 2rem;
+}
+header #three-bars{
+    position: absolute;
+    top:20%;
+    right: 5%;
+    display: block;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.Home .count-section .center-div ul{
+    width: 70%;
+}
+
+
+.about .about-images{
+    width:90%;
+     height:45vh;  
+}
+.about .about-images img{
+    width: 90%;
+    height: 45vh;
+
+}
+
+
+.about .about-text{
+    width:100%;
+    height: 25vh;
+    margin:4rem 4rem;
+    
+}
+
+.about .about-text h1{
+    font-size: 3rem;
+}
+.about .about-text p{
+    font-size: 1.3rem;
+}
+.Services .containter-row .box{
+    width: 20rem;
+    margin-top: 15px;
+    margin-left: 2rem;
+
+}
+
+.our-project .project-container .images-project{
+    margin: 2rem auto;
+}
+.contact-form .container-row .box{
+    width: 15rem;
+   
+}
+.contact-form .container-row #id-box{
+    width: 33rem;
+    margin-top: 1.4rem;
+}
+
+
+}
+
+
+@media screen and (max-width:400px){
+
+    .about .about-text h1{
+        font-size: 2rem;
+        border: 3p solid red;
+    }
+    .about .about-text .about-icons{
+   
+        width: 80%;
+        height: 7vh;
+        margin-top:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

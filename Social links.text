@@ -1,0 +1,52 @@
+<i class="fa-solid fa-bars"></i>
+<i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-download"></i>
+<i class="fa-solid fa-image"></i>
+<i class="fa-solid fa-arrow-right"></i>
+<i class="fa-solid fa-phone"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fa-solid fa-xmark"></i>
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-trash"></i>
+<i class="fa-solid fa-video"></i>
+<i class="fa-solid fa-wifi"></i>
+<i class="fa-solid fa-gears"></i>
+<i class="fa-solid fa-graduation-cap"></i>
+<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-apple"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-google"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-wordpress-simple"></i>
+<i class="fa-brands fa-react"></i>
+<i class="fa-brands fa-python"></i>
+<i class="fa-brands fa-square-js"></i>
+
+
+
+
+
+
+
+
+    flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 250%;
+        height: 40vh;
+        background-color:black;
+        margin-top: -14rem;
+        margin-left:-300%;
+        transition: all 1s ease;
+       z-index: 1;
+
+
+
+
+

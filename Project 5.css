@@ -1,0 +1,507 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    margin-top: 0rem;
+    background-color: rgba(0,0,0,0.9);
+    
+
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+
+}
+header nav ul li{
+    margin-top: 20px;
+    margin-left: 3rem;
+    list-style-type: none;
+}
+header nav ul li a{
+    color:white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+header .fa-bars{
+    display: none;
+    position: relative;
+    left: 0%;
+    top: 10%;
+}
+header .fa-wordpress-simple{
+        margin-top: 1rem;
+        margin-right: 3rem;
+        font-size: 2rem;
+        color: yellow;
+
+}
+
+.home{
+    background-image: url("file:///C:/Users/Public/Pictures/Sample%20Pictures/Lighthouse.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;  
+      
+}
+.home .Home-content{
+
+    position:absolute;
+    top: 40%;
+    left: 10%;
+
+}
+.home .Home-content h1{
+    font-size: 3rem;
+    color: yellow;
+
+}
+.home .Home-content h2{
+    color:black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home .Home-content p{
+    width: 60%;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
+.home .Home-content button{
+    width: 130px;
+    height: 40px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color:orange;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.home .Home-content button:hover{
+    transform: scale(1.4);
+}
+
+/*This section now we are prepard for the about section*/
+.about-section{
+    width: 100%;
+    min-height: 70vh;
+   
+
+}
+
+.about-section .heading1{
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+.about-section .heading1::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -8%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 6px;
+    border-radius: 5px;
+    background-color:orange;
+
+}
+.about-section .about-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.about-section .about-row .card{
+    width:16rem;
+    height: 20rem;
+    background-color:white;
+    border:3px solid red;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.about-section .about-row .card img{
+    width: 100%;
+    height: 50%;
+    padding:10px 10px;
+
+}
+.about-section .about-row .card p{
+    width:100%;
+    padding: 10px;
+}
+.about-section .about-row .card button{
+    width: 130px;
+    height: 40px;
+    background-color:black;
+    color:yellow;
+    font-size: 1rem;
+    font-weight: 900;
+   margin-left: 3.4rem;
+   border-radius: 20px;
+}
+.about-section .about-row .card button:hover{
+    transform: scale(1.1);
+}
+
+/*This section we are make for the special*/
+
+.special{
+    width: 100%;
+     min-height: 70vh;
+}
+.heading2{
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+    position: relative;
+    }
+.heading2::before{
+    content: "";
+    position:absolute;
+    width: 90px;
+    height: 5px;
+    left: 50%;
+    bottom: -16%;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background-color: orange;
+}
+.special .special-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.special .special-row .text{
+    width: 40%;
+    height: 40%;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding:10px;
+}
+.special .special-row .text h2{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.special .special-row .text .paragraph{
+    margin-top:10px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.special .special-row .text p{
+    line-height: 25px;
+    font-size: 1.1rem;
+    margin-top:10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.special .special-row .images{
+    width: 40%;
+    height: 30%;
+    margin-right: 4rem;
+}
+
+.special .special-row .images img{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    
+}
+
+
+.Dishes{
+    width: 100%;
+    min-height: 50vh;
+    border: none;
+    
+}
+.heading3{
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+    position: relative;
+    
+    }
+.heading3::before{
+    content: "";
+    position:absolute;
+    width: 90px;
+    height: 5px;
+    left: 50%;
+    bottom: -16%;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background-color: orange;
+}
+
+.Dishes .dishes-row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.Dishes .dishes-row .picture{
+    width: 30%;
+    height: 30%;
+}
+.Dishes .dishes-row .picture img{
+    width: 60%;
+    height: 100%;
+    margin-top: 2rem;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.Dishes .dishes-row .picture img:hover{
+    transform: scale(1.1);
+    
+}
+/*This section we are prepard for the form-section*/
+.form-section{
+    width: 100%;
+    min-height: 80vh;
+    border: 3px solid red;
+    background-image: url("file:///C:/Users/Public/Pictures/Sample%20Pictures/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top:4rem;
+}
+.heading4{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    }
+.heading4::before{
+    content: "";
+    position:absolute;
+    width: 150px;
+    height: 5px;
+    left: 50%;
+    bottom: -16%;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    background-color: orange;
+}
+
+
+.form-section .form form{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem auto;
+    width: 35%;
+    min-height: 75vh;
+    background-color:peachpuff;
+    border: 3px solid blue;
+   
+}
+.form-section .form form .input1{
+    position: relative;
+    margin-top: 1rem;
+}
+.form-section .form form .input1 input{
+    width: 20rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    left: 16rem;
+    top: 20%;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+}
+.form-section .form form .input1 input:focus ~ h3{
+
+    left: 4rem;
+    top: -16%;
+    color: red;
+    font-size: 20px;
+    font-family: calibri;
+    letter-spacing: 2px;
+}
+.form-section .form form .input1 h3{
+    position: absolute;
+    left: 22%;
+    top: 42%;
+    font-size: 1rem;
+}
+.form-section .form form .input2 {
+   position: relative;
+   
+}
+.form-section .form form .input2 textarea{
+    width: 20rem;
+    height: 10rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border:2px solid red;
+    
+   
+}
+.form-section .form form .input2 textarea:focus ~ h3{
+    font-size: 1.2rem;
+    left: 4rem;
+    top: 2%;
+    color: red;
+    font-size: 20px;
+    font-family: calibri;
+    letter-spacing: 2px;
+   
+}
+.form-section .form form .input2 h3{
+    position: absolute;
+    left: 22%;
+    top: 15%;
+}
+
+.form-section .form form .input3 input{
+    width: 20rem;
+    height: 2.4rem;
+    background-color:blue;
+    margin:1rem auto;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+.form-section .form form .input3 input:hover{
+    background-color: skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query section started for the 768*/
+
+@media screen and (max-width:768px){
+    header{
+        height:10%;
+        
+    }
+
+header nav ul{
+   flex-flow: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   background-color:black;
+   width: 150%;
+   height: 50vh;
+   margin-right: 5rem;
+   margin-left: -170%;
+   transition: all 1s ease;
+    z-index: -2;
+
+}
+.open-menu{
+    margin-left: 0%;
+}
+
+header nav ul li{
+    margin-top: 2rem;
+}
+header nav ul li a{
+    color:yellow;
+    font-size: 2rem;
+}
+header .fa-bars{
+    display: block;
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    font-size: 2.4rem;
+    color:white;
+}
+
+.home .Home-content h1{
+    font-size: 3rem;
+}
+.home .Home-content h2{
+  font-size: 2rem;
+}
+.home .Home-content p{
+    width: 80%;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+.home .Home-content button{
+        width: 150px;
+        height: 50px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        background-color:orange;
+        margin-top: 15px;
+        color: whitesmoke;
+    }
+
+    .special{
+        margin-top: 2rem;
+       
+    }
+.special .special-row{
+    flex-direction: column;
+}
+
+.special .special-row .text{
+    width: 80%;
+    margin: 0rem auto;
+}
+.special .special-row .images{
+    width: 75%;
+    margin: 0rem auto;
+}
+.Dishes .dishes-row{
+    flex-direction: column;
+
+}
+.Dishes .dishes-row .picture{
+    width: 80%;
+    height: 50%;
+}
+.form-section{
+   width: 100%;
+   min-height: 50vh;
+   margin-top: 2rem;
+}
+.form-section .form form{
+  width: 60%;
+  min-height: 50vh;
+
+   
+}
+.heading1,.heading2,.heading3,.heading4{
+   font-size: 3rem;
+    }
+
+}
+
+
+

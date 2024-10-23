@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navheight{
+    height: 100px;
+}
+.abc{
+    border: 3px solid red;
+}
+.col-9{
+    display: flex;
+    justify-content:start;
+}
+#button{
+    border: 3px dotted red;
+    height: 50px;
+    background: none;
+    color: red;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: blue;
+    color: white;
+
+}
+
+
+#footer-height{
+    min-height: 400px;
+   
+
+}
+.image-flex{
+    width: 350px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#group-image{
+    width: 80px;
+    height: 60px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
